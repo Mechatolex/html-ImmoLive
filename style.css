@@ -1,10 +1,15 @@
+
+
 h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
     text-align: center;
     color: white;
 }
 
 header{
-    background-color: #00db71;
+    background-color: #213555;
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 1px;
@@ -12,50 +17,62 @@ header{
 }
 
 body{
-    background-color: #f3f3f3;
+    background-color: #3E5879;
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 footer{
-
-    background-color: #00db71;
+    background-color: #213555;
     font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 0px;
     margin: 0px;
-    padding: 0px;
+    padding: 2rem;
+    width: 100%;
+}
+
+a{
+    color: #F5EFE7;
+    padding: 2px;
+    margin: 3px;
+    border:#F5EFE7, 1px, solid;
+    font-size: auto;
 }
 
 .map{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: auto;
     height: 50%;
 }
 
 .bLogin{
-    background-color: #00db71;
+    background-color: #F5EFE7;
     color: black;
-    padding: 0px;
-    margin: 0px;
-    right: 20%;
-    top: 4%;
-    position: absolute;
-    border: none;
-    cursor: pointer;
-    width: 10px;
+    padding: 3px;
+    margin-right: 1em;
+    right: 6em;
+    top: 24pt;
+    border: 2px solid #c2c0be;
+    width: 5em;
 }
 .bRegister{
-    background-color: #00db71;
+    background-color: #F5EFE7;
     color: black;
-    padding: 0px;
-    margin: 0px;
-    right: 10%;
-    top: 4%;
-    position: absolute;
-    border: none;
+    padding: 3px;
+    margin-right: 0em;
+    right: 1em;
+    top: 24pt;
+    border: 2px solid #c2c0be;
+    width: 5em;
+}
+
+button{
     cursor: pointer;
-    width: 10px;
+    border-radius: 5px;
+    position: absolute;
 }
 
