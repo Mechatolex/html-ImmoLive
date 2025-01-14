@@ -1,78 +1,28 @@
 
-
-h1{
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-}
-
-header{
-    background-color: #213555;
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 1px;
-    top: 0px;
-}
-
-body{
-    background-color: #3E5879;
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-
-footer{
-    background-color: #213555;
-    font-family: Arial, sans-serif;
-    position: fixed;
-    bottom: 0px;
-    margin: 0px;
-    padding: 2rem;
-    width: 100%;
-}
-
-a{
-    color: #F5EFE7;
-    padding: 2px;
-    margin: 3px;
-    border:#F5EFE7, 1px, solid;
-    font-size: auto;
-}
-
-.map{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: 50%;
-}
-
-.bLogin{
-    background-color: #F5EFE7;
-    color: black;
-    padding: 3px;
-    margin-right: 1em;
-    right: 6em;
-    top: 24pt;
-    border: 2px solid #c2c0be;
-    width: 5em;
-}
-.bRegister{
-    background-color: #F5EFE7;
-    color: black;
-    padding: 3px;
-    margin-right: 0em;
-    right: 1em;
-    top: 24pt;
-    border: 2px solid #c2c0be;
-    width: 5em;
-}
-
-button{
-    cursor: pointer;
-    border-radius: 5px;
+.display-container{
     position: absolute;
+    background-color: #b8e2f5;
+    border-radius: 15pt;
+    border: black 1px solid;
+    width: 99%;
+    height: 98%;
 }
 
+.immolive{
+    position: relative;
+    display: inline-flex;
+    left: 50%;
+    font-size: 15pt;
+    white-space: nowrap;
+    background-color: #f7fdff;
+    padding: 0px 10px;
+    border: black 2px solid;
+    border-radius: 10pt;
+}
+
+#map{
+    padding: relative; 
+    margin: 0px 10px;
+    width: 95%;
+    height: 600px;
+}
