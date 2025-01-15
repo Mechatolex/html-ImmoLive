@@ -1,0 +1,54 @@
+
+/*on Mobil*/
+@media(max-width:480px){ 
+    #map{
+        height: 480pt;
+    }
+    
+    .display-container-ui>a{
+        display: inline-block;
+        border-radius: 10px;
+        border: #000000 1px solid;
+        background-color: #E1EACD;
+        color: #000000;
+        margin: 3pt 0pt 3pt 3pt;
+        text-align: center;
+        width: 100px;
+        box-shadow: 0px 2px 3px rgb(0, 0, 0);
+    }
+}
+/*on Tablets*/
+@media(min-width:481px) and (max-width:1200px){
+    #map{
+        height: 481pt;
+    }
+
+    .display-container-ui>a{
+        display: inline-block;
+        border-radius: 10px;
+        border: #000000 1px solid;
+        background-color: #E1EACD;
+        color: #000000;
+        margin: 5pt 1pt;
+        padding:3px;
+        box-shadow: 0px 2px 3px rgb(0, 0, 0);
+    }
+}
+
+/*on Desktop*/
+@media(min-width:1601px){
+    #map{
+        height: 480pt;
+    }
+    
+    .display-container-ui>a{
+        display: inline-block;
+        border-radius: 10px;
+        border: #000000 1px solid;
+        background-color: #E1EACD;
+        color: #000000;
+        margin: 5pt 1pt;
+        padding:3px;
+        box-shadow: 0px 2px 3px rgb(0, 0, 0);
+    }
+}

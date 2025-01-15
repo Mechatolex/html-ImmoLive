@@ -1,28 +1,9 @@
-
-.display-container{
-    position: absolute;
-    background-color: #b8e2f5;
-    border-radius: 15pt;
-    border: black 1px solid;
-    width: 99%;
-    height: 98%;
+body{
+    background-color: #BAD8B6;
 }
 
-.immolive{
-    position: relative;
-    display: inline-flex;
-    left: 50%;
-    font-size: 15pt;
-    white-space: nowrap;
-    background-color: #f7fdff;
-    padding: 0px 10px;
-    border: black 2px solid;
-    border-radius: 10pt;
+.display-container-map{
+    display:block;
+    margin: 0px 0px;
 }
 
-#map{
-    padding: relative; 
-    margin: 0px 10px;
-    width: 95%;
-    height: 600px;
-}
