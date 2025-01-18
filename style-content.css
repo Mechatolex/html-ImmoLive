@@ -1,0 +1,42 @@
+
+.map-nav>p{
+    font-size: 1rem;
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: 900px;
+    width: auto;
+    padding: 0px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#b-administer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    top: 0.5rem;
+    
+    border-radius: 10px;
+    border: 0px white solid;
+    background-color: #5F4B86;
+    font-size: 11pt;
+    color: #fff;
+}
+#b-administer:hover{
+    cursor: pointer;
+    box-shadow: black 0px 0px 6px 2px inset;
+}
+
+#a-profil{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a-profil:hover{cursor: pointer;}
+
+#profil{
+    width: 32px;
+    height: 32px;
+}
