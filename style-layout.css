@@ -3,7 +3,7 @@
 
 .map-container{
     position: fixed;
-    background-color: #ffffff;
+    background-color: #3232B4;
     width: 100vi;
     height: 100vh;
     left: 0px;
@@ -15,13 +15,16 @@
     display: block;
     background-color: #3232B4;
     width: 100vi;
-    height: 5vh;
+    height: 10vh;
     border-radius: 0px 0px 5vh 5vh;
     box-shadow: #00000080 0px 2px 3px 3px;
     z-index: 1;
 }
 
 .map-nav{
+    position: relative;
     display:flex;
     justify-content: center;
+    align-items: center;
+    top: 1em;
 }

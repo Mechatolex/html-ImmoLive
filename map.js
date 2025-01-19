@@ -9,6 +9,7 @@
 var map = L.map("map", {
     center: [51.93900,11.42857],
     zoom: 18,
+    zoomControl: false,
 }).locate({setView: true});
 
 // create
