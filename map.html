@@ -1,44 +1,44 @@
- <!DOCTYPE html>
- <html lang="de">
- 
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <title>Immo Live Map</title>
-    <!--Link-->
-    <link href="../2.css/style-layout.css" rel="stylesheet"/>
-    <link href="../2.css/map.css" rel="stylesheet"/>
-    <!--style-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
-    </style>
+<!DOCTYPE html>
+<html lang="de">
 
-    <!--Leaflet-->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+   <title>Immo Live Map</title>
+   <!--Link-->
+   <link href="./style-layout.css" rel="stylesheet"/>
+   <link href="./map.css" rel="stylesheet"/>
+   <!--style-->
+   <style>
+       @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+   </style>
 
-        
- </head>
+   <!--Leaflet-->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
 
- <body>
-    <div class="map-container">
-        <div class="map-header">
-            <div class="map-nav">
-                    <button id="b-administer">Verwalten</button>
-                    <p>Immo Live</p>
-                    <a id="a-profil"><image id="profil" src="../4.img/profil.png" alt="Profil"></image></a>
-            </div>
-        </div>
-        
-        <div id="map">
-            <script src="../3.js/map.js"></script>
-            <script src="../3.js/trackmark.js"></script>
-        </div>
-    
-    </div>
- </body>
- </html>
+       
+</head>
+
+<body>
+   <div class="map-container">
+       <div class="map-header">
+           <div class="map-nav">
+                   <button id="b-administer">Verwalten</button>
+                   <p>Immo Live</p>
+                   <a id="a-profil"><image id="profil" src="./profil.png" alt="Profil"></image></a>
+           </div>
+       </div>
+       
+       <div id="map">
+           <script src="./map.js"></script>
+           <script src="./trackmark.js"></script>
+       </div>
+   
+   </div>
+</body>
+</html>
