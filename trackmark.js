@@ -1,5 +1,11 @@
 function onLocationFound(e) {
-    L.marker(e.latlng).addTo(map)   
+    const autorefresh=({intervall=10000,}) => {
+        const execute = () => {
+            setTimeout(execute, intervall);
+            L.marker(e.latlng).addTo(map) 
+        };
+        execute();
+    };  
 }
 function onLocationError(e) {
     alert(e.message);
