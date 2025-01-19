@@ -1,5 +1,6 @@
 
 .map-nav>p{
+    position: relative;
     font-size: 1rem;
     font-family: "Lexend Giga", sans-serif;
     font-weight: 900px;
@@ -7,6 +8,18 @@
     padding: 0px 10px;
     text-align: center;
     color: #fff;
+}
+
+#b-center{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+
+    width: 50px;
+    height: 50px;
+
+    bottom: 15vh;
+    right: 10px
 }
 
 #b-administer{
@@ -34,7 +47,7 @@
     justify-content: center;
     align-items: center;
 }
-#a-profil:hover{cursor: pointer;}
+a:hover{cursor: pointer;}
 
 #profil{
     width: 32px;
