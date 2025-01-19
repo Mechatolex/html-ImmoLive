@@ -1,0 +1,10 @@
+#map{
+    position: absolute;
+    display: flex;
+
+    top: 0px;
+
+    z-index: 0;
+    height: 95vh;
+    width: 100vi;
+}
